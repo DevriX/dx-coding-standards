@@ -11,6 +11,13 @@ $layout-row-width: 1040px;
 // Width between columns
 $column-gutter: rem-calc(30) !default;
 
+// Media Query Ranges
+$small-range: (0, 40em) !default;
+$medium-range: (40.0625em, 64em) !default;
+$large-range: (64.0625em, 90em) !default;
+$xlarge-range: (90.0625em, 120em) !default;
+$xxlarge-range: (120.0625em, 99999999em) !default;
+
 // End settings
 // --------------------------------------------------------------------------------
 

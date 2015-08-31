@@ -8,8 +8,9 @@ $rem-base: 16px !default;
 // Width of the row
 $layout-row-width: 1040px;
 
-// Width between columns
-$column-gutter: rem-calc(30) !default;
+// The value is in pixels. This is total spacing between columns, meaning
+// left and right is the value / 2
+$column-gutter-custom: 30;
 
 // Media Query Ranges
 $small-range: (0, 40em) !default;
@@ -143,6 +144,9 @@ $base-font-size: 100% !default;
 
 // $base-line-height is 24px while $base-font-size is 16px
 $base-line-height: 1.5 !default;
+
+// Setting the spacing between columns
+$column-gutter: rem-calc($column-gutter-custom) !default;
 
 //
 // Global Foundation Mixins

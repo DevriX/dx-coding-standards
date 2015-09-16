@@ -46,33 +46,12 @@ var siteEvents = (function () {
 	 * can be used as setting (like fixed element height) better to  set
 	 * it here.
 	 */
-	var _s = {
-
-		// Example general selector. Best to use variables for performance
-		bodyElement: $( "body" )
-	};
-
-	 /**
-	  * Example function. You can write jQuery code here.
-	  * @return {[type]} [description]
-	  */
-	var _testScript = function ( event ) {
-
-		// Only run alert if devMode == true
-		devAlert( "test" );
-
-		// This will print only if devMode == true
-		console.log( "test" );
-	};
+	var _s = {};
 
 	/**
 	 * Fire all functions that will be used in the page.
 	 */
-	var events = function () {
-
-		// When header is clicked.
-		_s.bodyElement.on( 'click', _testScript );
-	};
+	var events = function () {};
 
 	/**
 	 * Call the events.

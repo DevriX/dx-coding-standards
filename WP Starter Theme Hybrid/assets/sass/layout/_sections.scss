@@ -1,0 +1,19 @@
+/**
+ * New update on the grid - Only 3 breakpoints. This will result in neasier to maintain
+ * layout. We will have to support only 3 widths instead of the fluid design that is
+ * always 100% with one max-width (meaning 800+ breakpoints)
+ * @type {[type]}
+ */
+.row { max-width: 100%; }
+
+@media (min-width: $breakpoint-small) {
+	.row { width: 640px }
+}
+
+@media (min-width: $breakpoint-medium) {
+	.row { width: 960px }
+}
+
+@media (min-width: $breakpoint-big) {
+	.row { width: 1200px }
+}

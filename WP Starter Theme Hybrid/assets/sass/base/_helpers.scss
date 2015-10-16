@@ -1,0 +1,42 @@
+/**
+ * Place ul element in the middle of its parent. The structure
+ * .center-ul > ul must be followed in order to work. (uds)
+ */
+.center-ul{
+	text-align: center;
+	& > ul { display: inline-block; }
+}
+
+/**
+ * WordPress required styling
+ */
+.alignright {
+	float: right;
+}
+
+.alignleft {
+	float: left;
+}
+
+/**
+ * Text Modifiers
+ */
+.text-right 	{ text-align: right; }
+.text-left 		{ text-align: left; }
+.text-center 	{ text-align: center; }
+
+.cb { clear: both }
+
+hr.clear { border: none; background: transparent; clear: both; }
+
+.white-text {
+	color: white;
+
+	h1,h2,h3,h4,h5,h6 { color: white; }
+	a { color: white; }
+	a:hover { color: white; }
+}
+
+.italic {
+	font-style: italic;
+}

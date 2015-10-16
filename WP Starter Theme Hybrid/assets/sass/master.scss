@@ -1,0 +1,16 @@
+// The master CSS file.
+// ----------------------------------------------------------------------------
+// One css to rule them all, One css to find them; One css to bring them all
+// and in the darkness bind them.
+
+// The order of files include is important. Dont change it.
+
+/**
+ * Development build - compresed view. User minified for production.
+ */
+
+@import 'base/all';
+@import 'plugins/all';
+@import 'layout/all';
+@import 'components/all';
+@import 'pages/all';

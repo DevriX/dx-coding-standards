@@ -1,0 +1,20 @@
+// Media query breakpoints.
+$breakpoint-mobile: 480px;
+
+// Standartl set media queries
+$breakpoint-small: 	640px;
+$breakpoint-medium: 960px;
+$breakpoint-large: 	1200px;
+
+// Layout
+$layout-section-padding-mobile: rem-calc( 50px );
+$layout-section-padding: rem-calc( 80px );
+
+// Colors:
+$color-primary: #3D66D8;
+$color-secondary: #3D66D8;
+$color-accent: #3D66D8;
+
+// Fonts
+$font-serif: "PT Serif", Georgia, "Times New Roman", serif;
+$font-sans: "PT Sans", "Open Sans", Arial, sans-serif;

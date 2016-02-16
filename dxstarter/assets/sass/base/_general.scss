@@ -1,0 +1,64 @@
+// Allowing to run foundation.js file
+meta.foundation-data-attribute-namespace { font-family: false; }
+
+// Add margin-top to body tag when admin-bar is visible.
+body.admin-bar {
+	padding-top: 32px;
+
+	@media (max-width: 782px) {
+		padding-top: 46px;
+	}
+
+}
+
+p:first-child {
+	margin-top: 0;
+}
+
+p:last-child {
+	margin-bottom: 0;
+}
+
+a {
+	text-decoration: none;
+}
+
+h1,h2,h3,h4,h5 {
+	line-height: 1.2;
+}
+
+h1 {}
+h2 {}
+h3 {}
+h4 {}
+h5 {}
+
+blockquote {}
+hr {}
+iframe {}
+
+// Required WordPress stylings
+img.alignright {
+	margin: 20px 0 20px 20px;
+}
+
+img.alignleft {
+	margin: 20px 20px 20px 0;
+}
+
+img.aligncenter {
+	margin: 20px auto;
+}
+
+.wp-caption {}
+.wp-caption-text {}
+
+ol {
+	margin: 0;
+	padding: 0;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+}

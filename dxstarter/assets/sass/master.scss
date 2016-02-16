@@ -1,0 +1,40 @@
+// The master CSS file.
+// ----------------------------------------------------------------------------
+// One css to rule them all, One css to find them; One css to bring them all
+// and in the darkness bind them.
+// The order of files include is important. Dont change it.
+
+@import "base/variables";
+@import "base/mixins";
+@import "base/normalize";
+@import "base/fonts";
+@import "base/grid";
+@import "base/general";
+@import "base/helpers";
+
+// Styling or adding plugin specific stylings in one place.
+// Owl is mostly to be only for the plugin required styling.
+@import "plugins/cf7";
+@import "plugins/owl";
+
+// Separating the largest parts of the site in specific files.
+@import "layout/header";
+@import "layout/sections";
+@import "layout/footer";
+@import "layout/pages-global";
+
+// Any other module that can be reused multuple times.
+@import "components/elements";
+@import "components/entry";
+@import "components/entry-single";
+@import "components/widgets";
+@import "components/comments";
+@import "components/buttons";
+@import "components/input";
+@import "components/tables";
+@import "components/pagination";
+
+// If there is anything specific for a page it should be in this folder
+@import "pages/404";
+@import "pages/single";
+@import "pages/search";

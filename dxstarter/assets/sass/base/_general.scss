@@ -50,8 +50,18 @@ img.aligncenter {
 	margin: 20px auto;
 }
 
+/**
+ * Required classes by WordPress. To pass the theme check
+ * stylings to those must be applied, since the SASS watch
+ * script is skipping classes that have no properties.
+ */
 .wp-caption {}
 .wp-caption-text {}
+.sticky {}
+.screen-reader-text {}
+.gallery-caption {}
+.bypostauthor {}
+
 
 ol {
 	margin: 0;

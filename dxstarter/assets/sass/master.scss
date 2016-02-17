@@ -8,9 +8,11 @@
 @import "base/mixins";
 @import "base/normalize";
 @import "base/fonts";
-@import "base/grid";
 @import "base/general";
 @import "base/helpers";
+
+// The Foundation 6.0 grid system
+@import "foundation/foundation";
 
 // Styling or adding plugin specific stylings in one place.
 // Owl is mostly to be only for the plugin required styling.
